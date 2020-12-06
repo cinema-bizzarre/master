@@ -81,14 +81,49 @@ public class User {
                 "нет",
                 "Высшее",
                 "просмотр сериалов");
-        for (Employee employee : employees){
-            if (employee.getAge()>40){
-                employee.registrationCard();
+        if (employees[0].getAge() > 40) {
+
+
+            employees[0].registrationCard();
 
 
         }
 
+        if (employees[1].getAge() > 40) {
+
+
+            employees[1].registrationCard();
+
+
         }
+
+        if (employees[2].getAge() > 40) {
+
+
+            employees[2].registrationCard();
+
+
+        }
+
+        if (employees[3].getAge() > 40) {
+
+
+            employees[3].registrationCard();
+
+
+        }
+
+        if (employees[4].getAge() > 40) {
+
+
+            employees[4].registrationCard();
+
+
+
+
+
+        }
+
     }
 }
 
